@@ -1,0 +1,23 @@
+participant data{
+
+p_mail:
+
+event_id:
+
+flag(0 means absent and 1 means present):
+
+}
+
+
+<?php
+$name= "Lokesh:Ghosh";
+$name = explode(':',$name);
+
+$fname = $name[0];
+$lname= $name[1];
+
+echo $fname;
+echo $lname;
+
+?>
+
