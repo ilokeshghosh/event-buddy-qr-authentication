@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-<form method="post" action="test.php" > 
+<form method="post" action="encryption.php" > 
             <div class="form-group">
                 <label>Event Id</label>
                 <input type="text" name="event_id" id="ID" placeholder="Enter Event ID" required data-parsley-pattern="^[a-zA-Z]+$" data-parsley-trigger="keyup" class="form-control" />
