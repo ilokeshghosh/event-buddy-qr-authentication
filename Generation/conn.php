@@ -1,7 +1,7 @@
 <?php
 $server ="localhost";
 $username="root";
-$password="";
+$password="No";
 $dbname="event_qr_authy";
 
 $conn = new mysqli($server, $username, $password, $dbname);
